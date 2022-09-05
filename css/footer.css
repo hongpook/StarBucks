@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -------fb-ins--------- */
+
+.footer-top{
+    margin-bottom: 3px;
+    background-color: #f0f0f0;
+}
+.footer-top-body{
+    width: 1360px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    height: 114px;
+    align-items: center;
+}
+.footer-top-body img{
+    width: 50px;
+}
+.footer-top-body img:hover{
+    opacity: 0.7;
+}
+.footer-bottom{
+    background: #f7f7f7;
+    padding-bottom: 45px;
+    border-bottom: 8px solid #382f2d;
+}
+.footer-bottom-body{
+    width: 1360px;
+    margin: 0 auto;
+    padding: 40px 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-body img{
+    width: 18px;
+    padding-bottom: 20px;
+}
+.footer-bottom-body-contact{
+    width: 50%;
+    display: flex;
+}
+.contact-items{
+    width: 33.33333%;
+}
+.contact-items h4{
+    padding: 18px 0;
+    color: #000;
+    font-size: 18px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.contact-items li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.contact-items a h4:hover,
+.contact-items a:hover,
+.footer-bottom-wrapper ul li a:hover{
+    color: #8a8885;
+}
+.contact-items li a{
+    color: #3d3935;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.footer-bottom-wrapper{
+    width: 1360px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.footer-bottom-wrapper ul{
+    padding: 0 20px;
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+}
+.footer-bottom-wrapper ul li{
+    padding: 0 10px;
+    display: flex;
+}
+.footer-bottom-wrapper ul li img{
+    height: 20px;
+    padding-right: 10px;
+}
+.footer-bottom-wrapper ul li a{
+    color: #000;
+    padding-right: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 900;
+}
+.footer-bottom-wrapper ul li .ft{
+    color: #666;
+}
+.footer-bottom-wrapper span{
+    border-right: 1px solid #ccc;
+    height: 18px;
+}
+.footer-bottom-wrapper p{
+    font-family: monospace;
+    font-size: 12px;
+    padding: 25px 0 25px 30px;
+}

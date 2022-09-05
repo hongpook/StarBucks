@@ -1,0 +1,100 @@
+/* ------------content------------------- */
+.banner{
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.content-one{
+    background-image: url('/img/bg-v1-cf.png');
+    background-size: 50%;
+    background-color: #efefef;
+}
+.content-one-wrapper{
+    padding: 70px 20px;
+    margin: 0 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-one-wrapper-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.content-one-wrapper-left h2{
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+.content-one-wrapper-left p{
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: 700;
+}
+.content-one-wrapper-left a{
+    border-bottom: 1px dotted   ;
+    color: #000;
+    font-size: 18px;
+}
+.content-one-wrapper-left a:hover{
+    background: rgba(15, 15, 15, .1);
+    border-bottom: 1px solid;
+}
+.content-one-wrapper-right{
+    width: 40%;
+}
+.content-two{
+    background-image: url('../img/bg-how_to_brew-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content-two-top{
+    width: 1360px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.content-two-top-content{
+    width: 660px;
+    padding: 0 20px;
+    color: #fff;
+    font-family: cursive;
+}
+.content-two-top-content h2{
+    padding: 34px 0 15px;
+    font-size: 18px;
+}
+.content-two-top-content h1{
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+.content-two-top-content p{
+    font-size: 18px;
+    line-height: 1.6;
+    word-spacing: 2px;
+}
+.content-two-bottom{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.itemss{
+    background-image: url('../img/pour_over_cone.svg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 120px;
+    background-size: 45%;
+    background-position: top;
+    opacity: 0.8;
+}
+.content-two-bottom p{
+    padding-top: 170px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.itemss:hover {
+    opacity: 1;
+    background-repeat: no-repeat;
+}
+  
